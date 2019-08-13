@@ -1,0 +1,8 @@
+version: '3'
+services:
+  busch-rest:
+    build: .
+    image: certl/busch-rest:latest
+    ports: 
+      - "8080:8080"
+    
